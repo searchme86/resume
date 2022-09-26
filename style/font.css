@@ -4,6 +4,33 @@
     font-size:2rem;
 }
 
+.skills .section__left > strong{
+font-size:1.5rem;
+}
+
+.message{
+    font-size:1.2rem;
+}
+
+.contact > li{
+    font-size:1.3rem;
+}
+
+.updated .badge{
+    line-height:1;
+    font-size:1rem;
+    font-weight:700;
+    white-space:nowrap;
+}
+
+.workItem__spec.badge > li{
+    line-height:1;
+    white-space:nowrap;
+    text-align:center;
+    font-size:1rem;
+}
+
+
 .workItem__date{
     font-size:1.5rem;
 }
@@ -15,7 +42,6 @@
  .workItem__description{
     font-style: italic;
  }
-
 
 .workItem__category{
     font-size:1.0625rem;

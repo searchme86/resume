@@ -4,6 +4,23 @@
     position:relative;
 }
 
+
+.updated .badge{
+    border-radius:0.25rem;
+    text-align:center;
+    padding:2px 3px;
+}
+
+
+
+.workItem__spec.badge > li{
+    border-radius:0.25rem;
+}
+
+
+
+
+
 .workItem__issue{
     position:relative;
 }

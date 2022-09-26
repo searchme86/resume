@@ -5,8 +5,29 @@
 }
 
 .section__title{
-    margin:1rem 0 1rem 0;
+    line-height:1;
+    padding:0 0 1rem 0;
+    box-sizing:border-box;
 }
+
+.introduce .section__content,
+.skills .section__content{
+    padding:30px 0 0 0;
+    box-sizing:border-box;
+}
+
+.skills .section__left > strong{
+    display:inline-block;
+    padding:0 0 0 30px;
+    box-sizing:border-box;
+}
+
+
+.contact > li{
+    margin:0 0 0.5rem 0;
+}
+
+
 
 .section__content > li{
  padding:20px 0 20px 0;
@@ -14,6 +35,24 @@
 
 .section__left{
     padding:0 0 0 30px;
+}
+
+.updated{
+    margin:2rem 0 0 0;
+}
+
+
+
+.workItem__spec.badge > li{
+    padding:4px 5px;
+    margin:0 0 6px 0;
+    box-sizing:border-box;
+}
+
+
+.workItem{
+    padding:10px 0 10px 0;
+    box-sizing:border-box;
 }
 
 .workItem__date{
@@ -34,11 +73,7 @@
 }
 
 .workItem__spec{
-    margin:0 0 0.5rem 0;
-}
-
-.workItem__experience{
-    margin:1rem 0 0 0;
+    margin:0 0 1.5rem 0;
 }
 
 .workItem__experience > li{
@@ -47,10 +82,12 @@
 
 .workItem__issue{
     margin:0 0 0.5rem 0;
+    padding:0 0 0 1rem ;
+    box-sizing:border-box;
 }
 
 .workItem__solution{
-    padding:0 0 0 2rem;
+    padding:0 0 0 1.5rem;
     box-sizing:border-box;
 }
 
