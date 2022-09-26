@@ -31,6 +31,11 @@
     color:#fff;
 }
 
+.workItem__status.badge > li{
+    background:#17a2b8;
+    color:#fff;
+}
+
 
 .workItem__spec.badge > li{
     background:#6c757d;

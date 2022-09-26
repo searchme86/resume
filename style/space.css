@@ -27,8 +27,6 @@
     margin:0 0 0.5rem 0;
 }
 
-
-
 .section__content > li{
  padding:20px 0 20px 0;
 }
@@ -41,14 +39,16 @@
     margin:2rem 0 0 0;
 }
 
+.updated .badge{
+    padding:2px 3px;
+}
 
-
+.workItem__status.badge > li,
 .workItem__spec.badge > li{
     padding:4px 5px;
     margin:0 0 6px 0;
     box-sizing:border-box;
 }
-
 
 .workItem{
     padding:10px 0 10px 0;
