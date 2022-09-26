@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+.unit{
+    margin:0 0 4rem 0;
+}
+
+.section__title{
+    margin:1rem 0 1rem 0;
+}
+
+.section__content > li{
+ padding:20px 0 20px 0;
+}
+
+.section__left{
+    padding:0 0 0 30px;
+}
+
+.workItem__date{
+    display:inline-block;
+    margin:0 0 1rem 0;
+}
+
+.workItem__topic {
+   margin:0 0 1rem 0; 
+}
+
+.workItem__description{
+    margin:0 0 1rem 0;
+}
+
+.workItem__description > li{
+    margin:0 0 1rem 0;
+}
+
+.workItem__spec{
+    margin:0 0 0.5rem 0;
+}
+
+.workItem__experience{
+    margin:1rem 0 0 0;
+}
+
+.workItem__experience > li{
+    margin:0 0 1rem 0;
+}
+
+.workItem__issue{
+    margin:0 0 0.5rem 0;
+}
+
+.workItem__solution{
+    padding:0 0 0 2rem;
+    box-sizing:border-box;
+}
+
+.workItem__category{
+    display:inline-block;
+    margin:1rem 0 0.5rem 0;
+}
+
+.dot > li{
+    margin:0 0 0.5rem 0;
+    padding:0 0 0 1rem;
+    box-sizing:border-box;
+
+}
+
+.each-dot{
+    position:relative;
+    margin:0 0 0 0;
+    padding:0 0 0 1rem;
+    box-sizing:border-box;
+}
+
+.sub-dot{
+    margin:0.5rem 0 1rem 3.5rem;
+}
+
+.sub-dot > li{
+    margin:0 0 1rem 0 ;
+}
+
+.base-dot{
+    margin:0.5rem 0 1rem 2rem;
+}
+
+.base-dot>li{
+    margin:0.5rem 0 1rem 0;
+}
+
+.initial-space{
+    padding:0;
+    margin:0;
+}
+
+
+

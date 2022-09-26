@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.--title{
+    color:#3c78d8;
+}
+
+.--date, .--des{
+    color:gray;
+}
+
+.--period{
+    color:#17a2b8;
+}
+
+.--link{
+    color:#007bff;
+}
+
+.--spec{
+    color:#6c757d;
+}
+
+
+.section__content > li{
+    border-top:1px solid gray;
+   }

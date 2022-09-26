@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+.section__content li{
+    position:relative;
+}
+
+.workItem__issue{
+    position:relative;
+}
+
+.dot > li:before,
+.workItem__issue:before,
+.each-dot:before
+{
+    content:" ";
+    position:absolute;
+    display:block;
+    top:40%;
+    left:0;
+    transform:translateY(-50%);
+    width:6px;
+    height:6px;
+    border-radius:100%;
+    background:#333;
+}
+
+.sub-dot,
+.sub-dot > li{
+    list-style-type: circle;
+}
+
+.base-dot,
+.base-dot > li{
+    list-style-type: square;
+}
+
+.workItem__position > li{
+    margin:0 0 1rem 0;
+}
+
+.initial-shape{
+    font-style: initial;
+}
+

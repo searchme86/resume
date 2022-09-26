@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.section__title{
+    font-size:2rem;
+}
+
+.workItem__date{
+    font-size:1.5rem;
+}
+
+.workItem__topic strong{
+    font-size:1.5rem;
+ }
+
+ .workItem__description{
+    font-style: italic;
+ }
+
+
+.workItem__category{
+    font-size:1.0625rem;
+}
