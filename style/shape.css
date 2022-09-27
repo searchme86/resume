@@ -6,8 +6,7 @@
 
 .updated .badge{
     border-radius:0.25rem;
-
-    padding:2px 3px;
+    padding:0.125rem 0.1875rem;
 }
 
 .workItem__status.badge > li,
@@ -29,8 +28,8 @@
     top:40%;
     left:0;
     transform:translateY(-50%);
-    width:6px;
-    height:6px;
+    width:0.375rem;
+    height:0.375rem;
     border-radius:100%;
     background:#333;
 }
@@ -52,4 +51,3 @@
 .initial-shape{
     font-style: initial;
 }
-

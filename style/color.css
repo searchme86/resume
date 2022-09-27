@@ -22,9 +22,8 @@
 
 .introduce .section__title,
 .skills .section__title{
-    border-bottom:1px solid gray;
+    border-bottom:0.0625rem solid gray;
 }
-
 
 .updated .badge{
     background:#6c757d;
@@ -36,13 +35,11 @@
     color:#fff;
 }
 
-
 .workItem__spec.badge > li{
     background:#6c757d;
     color:#fff;
 }
 
-
 .section__content > li{
-    border-top:1px solid gray;
+    border-top:0.0625rem solid gray;
    }
