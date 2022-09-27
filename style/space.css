@@ -1,13 +1,20 @@
 @charset "UTF-8";
 
 .initial-space{
-    padding:0;
-    margin:0;
+    padding:0 !important;
+    margin:0 !important;
 }
 
 .unit{
     margin:0 0 4rem 0;
 }
+
+.who{
+    padding:15px 0 15px 0;
+    box-sizing:border-box;
+}
+
+
 
 .section__title{
     line-height:1;

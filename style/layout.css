@@ -19,6 +19,13 @@ body{
     width:40%;
 }
 
+.who{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
 .section__right{
     width:60%;
 }
