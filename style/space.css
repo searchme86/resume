@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+.initial-space{
+    padding:0;
+    margin:0;
+}
+
 .unit{
     margin:0 0 4rem 0;
 }
@@ -21,7 +26,6 @@
     padding:0 0 0 30px;
     box-sizing:border-box;
 }
-
 
 .contact > li{
     margin:0 0 0.5rem 0;
@@ -61,7 +65,7 @@
 }
 
 .workItem__topic {
-   margin:0 0 1rem 0; 
+   margin:0 0 1rem 0;
 }
 
 .workItem__description{
@@ -73,12 +77,19 @@
 }
 
 .workItem__spec{
-    margin:0 0 1.5rem 0;
+    margin:0 0 2rem 0;
 }
 
 .workItem__experience > li{
     margin:0 0 1rem 0;
+    padding:1rem 0 0 0;
 }
+
+.workItem__experience.initial-space >li{
+    padding:0 0 0 0;
+}
+
+
 
 .workItem__issue{
     margin:0 0 0.5rem 0;
@@ -97,10 +108,9 @@
 }
 
 .dot > li{
-    margin:0 0 0.5rem 0;
+    margin:0 0 1rem 0;
     padding:0 0 0 1rem;
     box-sizing:border-box;
-
 }
 
 .each-dot{
@@ -125,11 +135,3 @@
 .base-dot>li{
     margin:0.5rem 0 1rem 0;
 }
-
-.initial-space{
-    padding:0;
-    margin:0;
-}
-
-
-

@@ -27,11 +27,15 @@ body{
     text-align:right;
 }
 
-
-.badge > li{
-    display:inline-block;
+.updated .badge{
+    position:relative;
+    vertical-align: top;
+    top:2px;
 }
 
 
 
 
+.badge > li{
+    display:inline-block;
+}
