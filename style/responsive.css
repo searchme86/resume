@@ -4,10 +4,10 @@
     .divided{
         display:block;
     }
-    .section-left{
-        padding-bottom:30px;
+    .section__left{
+        padding:0 0 30px 0;
     }
-    .section-right{
+    .section__right{
         width:100%;
     }
 }
