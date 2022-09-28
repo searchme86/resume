@@ -9,6 +9,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    word-break: break-all;
 }
 
 body:before{
@@ -136,5 +137,5 @@ select::-ms-expand{
 
  select:focus::-ms-value{
    background:transparent;
-   color:#000; 
+   color:#000;
 }
