@@ -1,19 +1,5 @@
 @charset "UTF-8";
 
-@media (max-width:890px){
-
-}
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width:660px) {
     .who .message{
         margin:30px 0 0 0;
@@ -32,7 +18,6 @@
         padding:0;
         margin:0 0 40px 0;
     }
-
 
     .section__right{
         width:100%;
@@ -62,7 +47,7 @@
     }
 
     .workItem__topic strong{
-        font-size:20px;
+        font-size:19px;
     }
 
     .workItem__topic .split{
@@ -80,5 +65,7 @@
         margin:5px 0 0 0;
     }
 
-
+    .workItem__subChecklist > li{
+        font-size:15px;
+    }
 }
