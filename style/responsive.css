@@ -29,6 +29,10 @@
         margin:30px 0 0 0;
     }
 
+    .section__title{
+        font-size:35px;
+    }
+
     .divided{
         display:block;
     }
@@ -47,7 +51,7 @@
     }
 
     .workItem__topic strong{
-        font-size:19px;
+        font-size:18px;
     }
 
     .workItem__topic .split{
