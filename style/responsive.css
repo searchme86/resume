@@ -51,12 +51,12 @@
     }
 
     .workItem__topic strong{
-        font-size:18px;
+        font-size:17px;
     }
 
     .workItem__topic .split{
         display:block;
-        font-size:20px;
+        font-size:17px;
     }
 
     .workItem__topic .workItem__place{
