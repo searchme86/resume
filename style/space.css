@@ -73,6 +73,11 @@
    margin:0 0 1rem 0;
 }
 
+.workItem__topic .split{
+    display:inline-block;
+    margin:0 0 0 4px;
+}
+
 .workItem__description{
     margin:0 0 1rem 0;
 }
