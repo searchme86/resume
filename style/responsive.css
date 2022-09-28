@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
+@media (max-width:890px){
 
+}
 
 
 
@@ -57,6 +59,10 @@
     .skills .section__left>strong{
         padding:0;
         margin:0 0 40px 0;
+    }
+
+    .workItem__topic strong{
+        font-size:20px;
     }
 
     .workItem__topic .workItem__place{
