@@ -65,6 +65,10 @@
         font-size:20px;
     }
 
+    .workItem__topic .split{
+        display:block;
+    }
+
     .workItem__topic .workItem__place{
         display:block;
         margin:5px 0 0 0;
