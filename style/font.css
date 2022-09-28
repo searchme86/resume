@@ -34,6 +34,11 @@ font-size:1.5rem;
     font-size:1.5rem;
  }
 
+.workItem__topic .split{
+        font-size:20px;
+}
+
+
  .workItem__description{
     font-style: italic;
  }

@@ -67,6 +67,7 @@
 
     .workItem__topic .split{
         display:block;
+        font-size:20px;
     }
 
     .workItem__topic .workItem__place{
