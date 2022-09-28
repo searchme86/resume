@@ -2,7 +2,7 @@
 
 @media (max-width:660px) {
     .divided{
-        display:flex;
+        display:block;
     }
     .section-left{
         padding-bottom:30px;
