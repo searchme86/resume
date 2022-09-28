@@ -8,7 +8,7 @@
 
 @media (max-width:660px) {
     .who .message{
-        margin:30px 0 0 0;
+        margin:1.875rem 0 0 0;
     }
 
     .divided{
@@ -16,13 +16,13 @@
     }
     .section__left{
         padding:0;
-        margin:0 0 30px 0;
+        margin:0 0 1.875rem 0;
         width:100%;
     }
 
     .skills .section__left>strong{
         padding:0;
-        margin:0 0 40px 0;
+        margin:0 0 2.5rem 0;
     }
 
     .section__right{
@@ -32,11 +32,11 @@
 
 @media (max-width:500px) {
     .who .message{
-        margin:30px 0 0 0;
+        margin:1.875rem 0 0 0;
     }
 
     .section__title{
-        font-size:35px;
+        font-size:2.1875rem;
     }
 
     .divided{
@@ -44,7 +44,7 @@
     }
     .section__left{
         padding:0;
-        margin:0 0 30px 0;
+        margin:0 0 1.875rem 0;
         width:100%;
     }
     .section__right{
@@ -53,29 +53,29 @@
 
     .skills .section__left>strong{
         padding:0;
-        margin:0 0 40px 0;
+        margin:0 0 2.5rem 0;
     }
 
     .workItem__topic strong{
-        font-size:17px;
+        font-size:1.0625rem;
     }
 
     .workItem__topic .split{
         display:block;
-        font-size:17px;
+        font-size:1.0625rem;
     }
 
     .workItem__topic .workItem__place{
         display:block;
-        margin:5px 0 0 0;
+        margin:0.3125rem 0 0 0;
     }
 
     .workItem__topic .workItem__role{
         display:block;
-        margin:5px 0 0 0;
+        margin:0.3125rem 0 0 0;
     }
 
     .workItem__subChecklist > li{
-        font-size:15px;
+        font-size:0.9375rem;
     }
 }

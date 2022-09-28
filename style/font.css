@@ -5,7 +5,7 @@
 }
 
 .skills .section__left > strong{
-font-size:1.5rem;
+    font-size:1.5rem;
 }
 
 .message{
@@ -32,9 +32,8 @@ font-size:1.5rem;
 
 .workItem__topic strong,
 .workItem__topic .split{
-    font-size:23px;
+    font-size:1.4375rem;
 }
-
 
  .workItem__description{
     font-style: italic;
