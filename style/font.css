@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 .section__title{
-    font-size:2.5rem;
+   font-size:1.875rem;
 }
 
 .skills .section__left > strong{
-    font-size:1.5rem;
+    font-size:1.25rem;
 }
 
 .message{
@@ -27,7 +27,7 @@
 }
 
 .workItem__date{
-    font-size:1.5rem;
+    font-size:1.25rem;
 }
 
 .workItem__topic workItem__titlePlace,
