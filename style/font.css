@@ -32,7 +32,7 @@
 
 .workItem__topic workItem__titlePlace,
 .workItem__topic .workItem__topic--split{
-    font-size:1.4375rem;
+    font-size:1rem;
 }
 
 .workItem__titlePlace{

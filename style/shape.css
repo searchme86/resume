@@ -44,10 +44,6 @@
     list-style-type: square;
 }
 
-.workItem__position > li{
-    margin:0 0 1rem 0;
-}
-
 .initial-shape{
     font-style: initial;
 }
