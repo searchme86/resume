@@ -51,11 +51,10 @@
 .alert-description{
     width:100%;
     border-radius:0.25rem;
-    border:1px solid transparent;
+    border:0.0625rem solid transparent;
     padding:0.75rem 1.25rem;
     color: #383d41;
     background-color: #e2e3e5;
     border-color: #d6d8db;
-    margin:0 0 25px 0;
-
+    margin:0 0 1.5625rem 0;
 }

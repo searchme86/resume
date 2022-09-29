@@ -6,7 +6,7 @@
 }
 
 .unit{
-    margin:0 0 30px 0;
+    margin:0 0 1.875rem 0;
 }
 
 .who{
@@ -16,13 +16,13 @@
 
 .section__title{
     line-height:1;
-    padding:0 0 8px 0;
+    padding:0 0 0.5rem 0;
     box-sizing:border-box;
 }
 
 .introduce .section__content,
 .skills .section__content{
-    padding:20px 0 0 0;
+    padding:1.25rem 0 0 0;
     box-sizing:border-box;
 }
 
@@ -66,11 +66,11 @@
 
 .workItem__date{
     display:inline-block;
-    margin:0 0 8px 0;
+    margin:0 0 0.5rem 0;
 }
 
 .workItem__topic {
-   margin:0 0 16px 0;
+   margin:0 0 1rem 0;
 }
 
 .workItem__topic .workItem__topic--split{
@@ -79,36 +79,32 @@
 }
 
 .workItem__description{
-    margin:0 0 8px 0;
+    margin:0 0 0.5rem 0;
 }
 
 .workItem__description > li{
-    margin:0 0 8px 0;
+    margin:0 0 0.5rem 0;
 }
 .workItem__solution--split{
     margin:0.3125rem 0 0 1.0625rem;
 }
 
 .workItem__experience > li{
-    margin:0 0 8px 0;
-    padding:10px 0 0 0;
+    margin:0 0 0.5rem 0;
+    padding:0.625rem 0 0 0;
 }
 
 .workItem__experience > li:first-child{
     padding-top:0;
 }
 
-/* .workItem__experience.initial-space >li{
-    padding:0 0 0 0;
-} */
-
 .workItem__position > li{
-    margin:0 0 26px 0;
+    margin:0 0 1.625rem 0;
 }
 
 .workItem__issue{
     margin:0 0 0.5rem 0;
-    padding:0 0 0 15px ;
+    padding:0 0 0 0.9375rem ;
     box-sizing:border-box;
 }
 
@@ -123,35 +119,40 @@
 }
 
 .workItem__spec{
-    margin:0 0 26px 0 ;
+    margin:0 0 1.625rem 0 ;
 }
 
 
 .dot > li{
-    margin:0 0 8px 0;
-    padding:0 0 0 15px;
+    margin:0 0 0.5rem 0;
+    padding:0 0 0 0.9375rem;
     box-sizing:border-box;
 }
 
 .each-dot{
     position:relative;
     margin:0 0 0 0;
-    padding:0 0 0 15px;
+    padding:0 0 0 0.9375rem;
     box-sizing:border-box;
 }
 
 .sub-dot{
-    margin:1rem 0 8px 34px;
+    margin:1rem 0 0.5rem 2.125rem;
 }
 
 .sub-dot > li{
-    margin:0 0 8px 0 ;
+    margin:0 0 0.5rem 0 ;
 }
 
 .base-dot{
-    margin:0.5rem 0 8px 2rem;
+    margin:0.5rem 0 0.5rem 2rem;
 }
 
 .base-dot>li{
-    margin:0.5rem 0 8px 0;
+    margin:0.5rem 0 0.5rem 0;
+}
+
+
+.alert-message > li{
+    margin:0 0 0.3125rem 0 ;
 }
