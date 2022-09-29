@@ -30,15 +30,21 @@
     font-size:1.5rem;
 }
 
-.workItem__topic strong,
+.workItem__topic workItem__titlePlace,
 .workItem__topic .workItem__topic--split{
     font-size:1.4375rem;
 }
+
+.workItem__titlePlace{
+    font-weight: initial;
+}
+
 
  .workItem__description{
     font-style: italic;
  }
 
 .workItem__category{
+    font-weight: initial;
     font-size:1.0625rem;
 }
