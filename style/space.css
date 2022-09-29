@@ -85,6 +85,9 @@
 .workItem__description > li{
     margin:0 0 1rem 0;
 }
+.workItem__solution--split{
+    margin:0.3125rem 0 0 1.0625rem;
+}
 
 .workItem__spec{
     margin:0 0 2rem 0;

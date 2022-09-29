@@ -39,10 +39,13 @@
     font-weight: initial;
 }
 
-
  .workItem__description{
     font-style: italic;
  }
+
+.workItem__solution--split{
+    display:block;
+}
 
 .workItem__category{
     font-weight: initial;
