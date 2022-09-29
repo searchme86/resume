@@ -31,7 +31,7 @@
 }
 
 .workItem__topic strong,
-.workItem__topic .split{
+.workItem__topic .workItem__topic--split{
     font-size:1.4375rem;
 }
 

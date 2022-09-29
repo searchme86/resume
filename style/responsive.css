@@ -51,6 +51,10 @@
         width:100%;
     }
 
+    .dot-list--split{
+        display:block;
+    }
+
     .skills .section__left>strong{
         padding:0;
         margin:0 0 2.5rem 0;
@@ -60,7 +64,7 @@
         font-size:1.0625rem;
     }
 
-    .workItem__topic .split{
+    .workItem__topic .workItem__topic--split{
         display:block;
         font-size:1.0625rem;
     }
