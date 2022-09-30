@@ -35,6 +35,7 @@
     font-size:1rem;
 }
 
+.sub-dot > strong,
 .workItem__titlePlace{
     font-weight: initial;
 }
