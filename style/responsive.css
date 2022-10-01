@@ -28,6 +28,10 @@
     .section__right{
         width:100%;
     }
+
+    .sub-dot--split{
+        display:block;
+    }
 }
 
 @media (max-width:500px) {
@@ -83,7 +87,7 @@
         font-size:0.9375rem;
     }
 
-    .workItem__checklist--split{
+    .sub-dot--split{
         display:block;
     }
 }
