@@ -82,4 +82,8 @@
     .workItem__subChecklist > li{
         font-size:0.9375rem;
     }
+
+    .workItem__checklist--split{
+        display:block;
+    }
 }
