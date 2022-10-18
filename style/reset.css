@@ -61,6 +61,7 @@ body:before{
 ul,
 li {
     list-style-type: none;
+    line-height: 1.3rem;
 }
 
 button {
