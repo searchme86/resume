@@ -140,3 +140,8 @@ select::-ms-expand{
    background:transparent;
    color:#000;
 }
+
+table th,
+table tr td{
+    text-align: center;
+}
