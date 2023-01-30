@@ -144,4 +144,5 @@ select::-ms-expand{
 table th,
 table tr td{
     text-align: center;
+    border-right:1px solid #000;
 }
