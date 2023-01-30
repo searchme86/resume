@@ -21,7 +21,7 @@
 }
 
 .attitude .section__title,
-.codes .section__content,
+.codes .section__title,
 .skills .section__title{
     border-bottom:0.0625rem solid gray;
 }
