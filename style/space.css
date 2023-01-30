@@ -20,7 +20,8 @@
     box-sizing:border-box;
 }
 
-.introduce .section__content,
+.attitude .section__content,
+.codes .section__content,
 .skills .section__content{
     padding:1.25rem 0 0 0;
     box-sizing:border-box;
