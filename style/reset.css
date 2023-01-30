@@ -144,5 +144,10 @@ select::-ms-expand{
 table th,
 table tr td{
     text-align: center;
+}
+
+table tbody td{
     border-right:1px solid #000;
+    padding:0.625rem 1.25rem 0.625rem 1.25rem;
+    box-sizing:border-box;
 }
