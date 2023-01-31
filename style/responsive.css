@@ -32,6 +32,10 @@
     .sub-dot--split{
         display:block;
     }
+
+    .workItem__date{
+        font-size:1.25rem;
+    }
 }
 
 @media (max-width:500px) {
