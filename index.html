@@ -365,7 +365,7 @@
                     <strong class="workItem__titlePlace"
                       >: [ToyProject]
                       <span class="sub-dot--split"
-                        >TS기반 React Hoo Form과 Zod가 적용된, </span
+                        >TS기반 React Hook Form과 Zod가 적용된, </span
                       >커스텀 폼 엘리먼트 구현 및 로그인
                     </strong>
                   </p>
@@ -376,7 +376,7 @@
                   </p>
                   <p class="workItem__topic">
                     <strong class="workItem__titlePlace"
-                      >: [ToyProject] JQuery 기반의 Web 개발</strong
+                      >: [ToyProject] JQuery 기반 Web 개발</strong
                     >
                   </p>
                 </div>
@@ -468,6 +468,16 @@
                             안정적으로 값의 타입 유지 및 할당하며
                           </span>
                           추척하는 것이 어려움
+                        </li>
+                        <li class="sub-dot">
+                          <span class="sub-dot--split"
+                            >컴포넌트에서 props를 '...(Spread 연산자)'로
+                            사용하는 구조로 설계했는데,
+                          </span>
+                          리팩토링 중,
+                          <span class="sub-dot--split"
+                            >올바른 값의 타입(type)으로 props를 체크하기 어려움,
+                          </span>
                         </li>
                         <li class="sub-dot">
                           <span class="sub-dot--split"
@@ -659,7 +669,12 @@
                 <div class="workItem__content">
                   <ul class="workItem__description --des">
                     <li>
-                      Web 구현에 필요한 학습으로,
+                      <span class="sub-dot--split">
+                        ReactJS와 NodeJs를 통해,
+                      </span>
+                      <br />
+                      클라이언트와 백엔드, Web 구현에 필요한 학습으로,
+                      <br />
                       <span class="sub-dot--split"
                         >DB Model 설계부터 개발 배포까지 경험한 프로젝트</span
                       >
@@ -669,7 +684,7 @@
                     <li>
                       <ul class="workItem__spec badge --spec">
                         <li>ReactJS</li>
-                        <li>Redux-toolkit</li>
+                        <li>Redux Toolkit</li>
                         <li>Axios</li>
                         <li>Styled-Components</li>
                         <li>ExpressJS</li>
@@ -683,22 +698,46 @@
                         >배운 점</strong
                       >
                       <ul class="workItem__checklist">
-                        <li class="sub-dot">React 컴포넌트 관심사 분리</li>
                         <li class="sub-dot">
-                          Component state management 학습 (Redux)
+                          관심사 분리 원칙을 통한, React 컴포넌트 구현
+                        </li>
+                        <li>
+                          Data model schema를 정의 후, 데이터 형태 및 컴포넌트
+                          설계함
                         </li>
                         <li class="sub-dot">
-                          Input Debounce 원리 파악 및 구현
+                          Component state management 학습 (Redux Toolkit)
                         </li>
                         <li class="sub-dot">
-                          Component, hook 코드 재사용성 및 유지보수에 대한 학습
+                          Input Debounce 원리를 파악 및 구현
                         </li>
                         <li class="sub-dot">
-                          <a
-                            href="https://searchme86.github.io/kafriends_clone/"
-                            class="workItem__link --link"
-                            >JQuery 토이 프로젝트</a
-                          >에 비교해 코드 관리가 편함을 경험
+                          <span class="sub-dot--split"
+                            >Component, hook구현을 통한 코드 재사용성의 장점과 </span
+                          >코드 유지보수 개념을 이해
+                        </li>
+                        <li class="sub-dot">
+                          <span class="sub-dot--split">
+                            <a
+                              href="https://searchme86.github.io/kafriends_clone/"
+                              class="workItem__link --link"
+                              >JQuery 토이 프로젝트</a
+                            >에 비교해, </span
+                          >컴포넌트를 통한, 화면(View)구현의 장점을 이해
+                        </li>
+                        <li>
+                          <span class="sub-dot--split"
+                            >Styled-Components로 스타일 모듈을 만들 때,
+                          </span>
+                          <span class="sub-dot--split"
+                            >단순히 화면 스타일을 묶음 단위로 분리하는 게
+                            아니라,</span
+                          >
+                          <span class="sub-dot--split"
+                            >공통 스타일을 기반으로, 유연하게 변경할 수 있는
+                            그런 스타일 컴포넌트를 구현해야 함,</span
+                          >
+                          이를 통해, 스타일 컴포넌트의 불필요한 코드가 제거됨
                         </li>
                         <li class="sub-dot">Deploy 및 Error Handling 경험</li>
                       </ul>
@@ -708,10 +747,29 @@
                         >고민 한 점</strong
                       >
                       <ul class="workItem__checklist sub-dot">
-                        <li>Props Driling를 고려한 컴포넌트 구조 설계</li>
-                        <li>Data model schema, DB schema 설계 및 관리 경험</li>
+                        <li>
+                          Props Driling의 수준(depth)을 고려한, 컴포넌트 설계
+                        </li>
+                        <li>
+                          <span class="sub-dot--split"
+                            >주입되는 다양한 데이터 객체(Object) 형태에도,
+                          </span>
+                          유연하게 값을 소비할 수 있는 컴포넌트 설계
+                        </li>
                         <li>
                           비즈니스 로직의 에러 처리 및 그에 따른 UX/UI 고민
+                        </li>
+                        <li>
+                          <span class="sub-dot--split"
+                            >Styled-Components로 스타일 모듈을 구현해야 하는
+                            것과 </span
+                          >기본 스타일(CSS3)로 대체 할, 디자인 구분
+                        </li>
+                        <li>
+                          <span class="sub-dot--split"
+                            >목적과 의미가 분명한 프로젝트 폴더명 정의와
+                          </span>
+                          가독성 있는 프로젝트 폴더 구조 채택
                         </li>
                       </ul>
                     </li>
@@ -1137,7 +1195,7 @@
               <div class="section__right">
                 <p class="workItem__topic">
                   <strong class="workItem__titlePlace"
-                    >[ToyProject] JQuery 기반의 Web 개발</strong
+                    >[ToyProject] JQuery 기반 Web 개발</strong
                   >
                 </p>
                 <div class="workItem__content">
