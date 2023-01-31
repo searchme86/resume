@@ -148,11 +148,13 @@
     margin:0.5rem 0 0.5rem 0;
 }
 
-.alert-message > li{
+.alert-message > li,
+.alert-list > li{
     margin:0 0 0.625rem 0 ;
     line-height: 1.2;
 }
 
-.alert-message > li:last-child{
+.alert-message > li:last-child,
+.alert-list > li:last-child{
     margin-bottom:0;
 }
